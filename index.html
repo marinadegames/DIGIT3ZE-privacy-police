@@ -126,7 +126,7 @@
   "meta": {
     "brand": "DIGIT3ZE",
     "updatedLabel": "Last updated:",
-    "updatedDate": "2026-03-25"
+    "updatedDate": "2026-03-24"
   },
   "intro": "DIGIT3ZE is an ad-supported mobile game. This Privacy Policy explains how information is collected, used, and shared when you use the app.",
   "sections": [
@@ -196,7 +196,7 @@
   "meta": {
     "brand": "DIGIT3ZE",
     "updatedLabel": "Последнее обновление:",
-    "updatedDate": "2026-03-25"
+    "updatedDate": "2026-03-24"
   },
   "intro": "DIGIT3ZE — мобильная игра с рекламой. Настоящая Политика конфиденциальности описывает, какая информация собирается, как она используется и передаётся при использовании приложения.",
   "sections": [
@@ -353,18 +353,6 @@
           root.appendChild(contactP);
         }
 
-        function prefersRussianBrowser() {
-          var list =
-            navigator.languages && navigator.languages.length
-              ? navigator.languages
-              : [navigator.language || ""];
-          for (var i = 0; i < list.length; i++) {
-            var tag = (list[i] || "").toLowerCase();
-            if (tag === "ru" || tag.indexOf("ru-") === 0) return true;
-          }
-          return false;
-        }
-
         function hashLang() {
           var h = (location.hash || "").toLowerCase().replace(/^#/, "");
           if (h === "ru" || h === "en") return h;
@@ -417,7 +405,7 @@
           if (stored === "ru" || stored === "en") {
             initial = stored;
           } else {
-            initial = prefersRussianBrowser() ? "ru" : "en";
+            initial = "en";
           }
         }
 
