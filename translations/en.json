@@ -1,0 +1,66 @@
+{
+  "code": "en",
+  "title": "Privacy Policy - DIGIT3ZE",
+  "htmlLang": "en",
+  "h1": "Privacy Policy",
+  "meta": {
+    "brand": "DIGIT3ZE",
+    "updatedLabel": "Last updated:",
+    "updatedDate": "2026-03-25"
+  },
+  "intro": "DIGIT3ZE is an ad-supported mobile game. This Privacy Policy explains how information is collected, used, and shared when you use the app.",
+  "sections": [
+    {
+      "h2": "Information Collection and Use",
+      "paragraphs": [
+        "We use certain data to provide and improve game features, including ads, in-app purchases, and leaderboard functionality."
+      ],
+      "list": [
+        "Advertising data processed via Unity Ads",
+        "Purchase and restore data handled by Google Play / Apple App Store",
+        "Leaderboard and game profile data handled by Google Play Games / Apple Game Center",
+        "Local gameplay progress and settings stored on your device"
+      ]
+    },
+    {
+      "h2": "Third-Party Services",
+      "paragraphs": [
+        "The app may use third-party services with their own privacy policies:"
+      ],
+      "list": [
+        {
+          "href": "https://www.google.com/policies/privacy/",
+          "text": "Google Play Services"
+        },
+        {
+          "href": "https://unity.com/legal/game-player-and-app-user-privacy-policy",
+          "text": "Unity Ads (Unity Technologies)"
+        },
+        "Google Play Store / Apple App Store",
+        "Google Play Games / Apple Game Center"
+      ]
+    },
+    {
+      "h2": "Log Data",
+      "paragraphs": [
+        "In case of app errors or diagnostics, technical log data may be collected, such as device model, operating system version, and event timestamps."
+      ]
+    },
+    {
+      "h2": "Children's Privacy",
+      "paragraphs": [
+        "DIGIT3ZE is available for all ages (0+). We take privacy seriously for every user. If you are a parent or guardian and believe your child has shared personal information with us, contact us and we will review and delete relevant data when applicable."
+      ]
+    },
+    {
+      "h2": "Changes to This Privacy Policy",
+      "paragraphs": [
+        "We may update this Privacy Policy from time to time. Updates will be posted on this page with a revised last-updated date."
+      ]
+    }
+  ],
+  "contact": {
+    "before": "If you have any questions or suggestions regarding this Privacy Policy, contact us at",
+    "email": "merinadevibe@gmail.com"
+  }
+}
